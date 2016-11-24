@@ -1,5 +1,7 @@
 # Twilreapi::ActiveCallRouter
 
+[![Build Status](https://travis-ci.org/dwilkie/twilreapi-active_biller.svg?branch=master)](https://travis-ci.org/dwilkie/twilreapi-active_biller)
+
 This gem contains the default billing interface for [Twilreapi](https://github.com/dwilkie/twilreapi). You can create you own billing logic and inherit from this interface.
 
 ## Installation
