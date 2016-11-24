@@ -1,28 +1,22 @@
-# Twilreapi::ActiveBiller
+# Twilreapi::ActiveCallRouter
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/twilreapi/active_biller`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem contains the default billing interface for [Twilreapi](https://github.com/dwilkie/twilreapi). You can create you own billing logic and inherit from this interface.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'twilreapi-active_biller'
+gem 'twilreapi-active_biller', :github => "dwilkie/twilreapi-active_biller"
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install twilreapi-active_biller
-
 ## Usage
 
-TODO: Write usage instructions here
+`Twilreapi::ActiveBiller::Base` initializes with a hash of options. The method `#calculate_price_in_micro_units` returns the price in in micro units (i.e. Currency Unit x 10^-6). See the [source](https://github.com/dwilkie/twilreapi-active_biller/blob/master/lib/twilreapi/active_biller/base.rb) for more details.
 
 ## Development
 
@@ -32,10 +26,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/twilreapi-active_biller.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/dwilkie/twilreapi-active_biller.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
