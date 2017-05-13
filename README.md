@@ -1,6 +1,7 @@
 # Twilreapi::ActiveCallRouter
 
 [![Build Status](https://travis-ci.org/dwilkie/twilreapi-active_biller.svg?branch=master)](https://travis-ci.org/dwilkie/twilreapi-active_biller)
+[![Test Coverage](https://codeclimate.com/github/dwilkie/twilreapi-active_biller/badges/coverage.svg)](https://codeclimate.com/github/dwilkie/twilreapi-active_biller/coverage)
 
 This gem contains the default billing interface for [Twilreapi](https://github.com/dwilkie/twilreapi). You can create you own billing logic and inherit from this interface.
 

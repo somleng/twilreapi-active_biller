@@ -1,3 +1,9 @@
 language: ruby
 rvm:
-  - 2.3.0
+  - 2.4.1
+addons:
+  code_climate:
+    repo_token:
+      secure: "bvky6Be5t/960DDdANlrDqOmyVYVL7rZg9S6NsPs1yTiHUc7tqrL0FJ8SLTv7d4qoAlLS133XjPF6Za3++1Iub85F8t65YRLQqlowjL6Ae8yYKRQPAoojwBy/SJATi1a6uuqXWXfYzVWkU2z0GS30h0xTTMkOPEy1rWOY/VMdpLTEOVd3yb7md3wvmnpXkZN9BeT0yawNTSg9+MSOW/ajzNJViKSM0p8xc3AhB3MXt8yQ8/ZLP1qyqKmP7cN69QYObJbbzsCXPJ2UZprIuV6E6VlcGaDYZJRk4G81L4F7PxhenhtsDMaFRxRfZywpf9DIv5Id/Cpoxcp06NVXXRUQaYHK9T7+FhniV8ku3t7mJ4sLeDOVn5k7aXP7oofP9IrAsCl0KiC1Jq0ivWwXS7zXiVhuE1+zKrGnua5KDOOcut70FQDxI0gcc2KmzlYpj9rSXFcc3fe3STaA2d75trfPw/TwwEYsd7zu2vkAgiIjNoBvpd1EuKJ6SU7gfF+gwYc8PCSqVNIRnsQdBKDFcswGmegYdyX+8i/C9XiW28EJrCl+AqSdRv/DOsoMmclUM0B5nkcesSCHUWeP64YHrA4KM0wE2rxFJJ53B4QL6Qlf4jDp1CZUSlrnX+80RuQS0aqyUmoRD9IgV2+gOz3YAPc8s0WfAzSd1bpoiPVGsH3jpU="
+after_success:
+  - bundle exec codeclimate-test-reporter
