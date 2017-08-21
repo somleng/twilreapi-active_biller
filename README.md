@@ -1,16 +1,15 @@
 # Twilreapi::ActiveCallRouter
 
-[![Build Status](https://travis-ci.org/dwilkie/twilreapi-active_biller.svg?branch=master)](https://travis-ci.org/dwilkie/twilreapi-active_biller)
-[![Test Coverage](https://codeclimate.com/github/dwilkie/twilreapi-active_biller/badges/coverage.svg)](https://codeclimate.com/github/dwilkie/twilreapi-active_biller/coverage)
+[![Build Status](https://travis-ci.org/somleng/twilreapi-active_biller.svg?branch=master)](https://travis-ci.org/somleng/twilreapi-active_biller)
 
-This gem contains the default billing interface for [Twilreapi](https://github.com/dwilkie/twilreapi). You can create you own billing logic and inherit from this interface.
+This gem contains the default billing interface for [Twilreapi](https://github.com/somleng/twilreapi). You can create you own billing logic and inherit from this interface.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'twilreapi-active_biller', :github => "dwilkie/twilreapi-active_biller"
+gem 'twilreapi-active_biller', :github => "somleng/twilreapi-active_biller"
 ```
 
 And then execute:
@@ -19,7 +18,7 @@ And then execute:
 
 ## Usage
 
-`Twilreapi::ActiveBiller::Base` initializes with a hash of options. The method `#calculate_price_in_micro_units` returns the price in in micro units (i.e. Currency Unit x 10^-6). See the [source](https://github.com/dwilkie/twilreapi-active_biller/blob/master/lib/twilreapi/active_biller/base.rb) for more details.
+`Twilreapi::ActiveBiller::Base` initializes with a hash of options. The method `#calculate_price_in_micro_units` returns the price in in micro units (i.e. Currency Unit x 10^-6). See the [source](https://github.com/somleng/twilreapi-active_biller/blob/master/lib/twilreapi/active_biller/base.rb) for more details.
 
 ## Development
 
@@ -29,7 +28,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/dwilkie/twilreapi-active_biller.
+Bug reports and pull requests are welcome on GitHub at https://github.com/somleng/twilreapi-active_biller.
 
 ## License
 

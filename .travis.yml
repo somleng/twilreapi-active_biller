@@ -1,9 +1,4 @@
+sudo: false
 language: ruby
 rvm:
   - 2.4.1
-addons:
-  code_climate:
-    repo_token:
-      secure: "d1s/RVY8HN28gj0hJlSDaf9wwFHCh80AO0oZWiAAuPsbhN8wsPWiULqeB0DIY1u+LOsuCawmheHD1Mz4wyaAWj6QvlJNbMLTm0aRWtPU44Lhd2lJ0xEN2VSbE/EX5eeh/omL4tXChItwLrMk8NxszACvFnjKaf5UT5Hnq6HZN+iZ0q2CAoLBs0hzOKhhwN567PCT2NwlTFc8YcAusjIBByF9hzg52kPQs3K/oQYyos9kpTsQ0+aujM3v0BhYL24JGa8MBQgjKfhSx01HSgQ/dt1OT/lqaGcqlMOYpsOcokw8JiwKkspGKlLSJ4gTGehsahrq5c1gBu2ex3jbv4knesahdOglf0Mrly3HTKuurS7Vb4+H0WsURsw7mvpPT2D3la5huOHCP3Zr1kyr47vBtbnZ6PTo++AtnmqhnK7jJxJDryqbVY0x3ZBTPkTR/2692aOYDMhBOoYUSHiIU6IP0DC0uSceIDXSEURZkC609eCuMNFN2+vZDTIYkK8pfCEJx9Yh6vIYH49zoQq6g9n8iSKX746Kudsb9pjJEmEZvEmamZB4WKTT46Bvr6n34QjEiSkAPj6dTjfNAQHAOy18zwWiF6uzVhUPvCSf7FbckcpQi5BwFN+K7BSZZuRTCUfaXycFpofch/O41PQeHM1h7b7W+aU9U7iDbvEzuGaYwAY="
-after_success:
-  - bundle exec codeclimate-test-reporter
